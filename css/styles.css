@@ -411,3 +411,20 @@ img {
     background-color: #31d0aa;
     fill: #f4f4fd;
 }
+.form-footer {
+    margin-left: 80px;
+    margin-right: 0;
+}
+.footer-from-label {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer-from-input {
+    margin-top: 16px;
+}
