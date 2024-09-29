@@ -653,7 +653,7 @@ border-color: #4D5AE5;
     cursor: pointer;
     fill: transparent;
     margin-right: 8px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .rewiem-form-checkbox-label {
     font-size: 12px;
