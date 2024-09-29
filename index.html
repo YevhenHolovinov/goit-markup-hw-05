@@ -459,18 +459,25 @@
             </li>
           </ul>
         </div>
-        <form class="form-footer" name="subscribe" autocomplete="off">
-          <label class="footer-from-label"
-            >Subscribe
+        <div class="footer-form-container">
+          <p class="footer-form-title">Subscribe</p>
+          <form class="form-footer">
+            <label class="footer-from-label" for="footer-email"></label>
             <input
               class="footer-from-input"
+              id="footer-email"
               type="email"
               name="email"
               placeholder="E-mail"
             />
-          </label>
-          <button class="footer-button" type="submit">Subscribe</button>
-        </form>
+            <button class="footer-button" type="submit">
+              Subscribe
+              <svg class="footer-form-button-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="modal-backdrop">
