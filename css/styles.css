@@ -442,7 +442,6 @@ img {
     border: 1px solid rgba(255, 255, 255, 1);
     border-radius: 4px;
     background-color: transparent;
-    margin-right: 24px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     padding-left: 16px;
@@ -681,8 +680,8 @@ border-color: #4D5AE5;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    padding: 16px 32px;
-    margin: 0 96px 24px 95px; 
+    padding: 16px 32px; 
+    margin: 0 auto;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
